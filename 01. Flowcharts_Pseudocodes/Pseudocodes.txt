@@ -1,0 +1,86 @@
+(A) Sum of 2 numbers:
+  Input:
+    first number, a
+    second number, b
+  Output:
+    sum of a & b
+  Pseudocode:
+    1. start
+    2. Input number, a & b
+    3. Calculate sum = a + b
+    4. Print sum
+    5. Exit    
+
+(B) Calculation of simple interest:
+  Input:
+    Principal, P
+    Rate, R  
+    Time, T
+  Output:
+    SI = PRT/100
+  Pseudocode:
+    1. Start
+    2. Input number, Principal (p), Rate (r) & Time (t)
+    3. Calculate SI = p*r*t/100
+    4. Print SI
+    5. Exit
+
+(C) Maximum of 3 numbers
+  Input:
+    3 number: a, b & c
+  Output:
+    max of 3
+  Pseudocode:
+    1. Start
+    2. Input number, a, b & c
+    3. if a>b do
+        if a>c do
+         print a
+        else
+         print c
+       else 
+        print b
+    4. Exit
+
+(D) Find if number is prime or not
+  Pseudocode:
+    1. Start
+    2. Input n
+    3. let div = 2
+    4. while div < n do
+        if n%div == 0 do
+          print "Not prime"
+          Exit
+        else 
+          div = div + 1      
+    5. print "prime"
+    6. Exit
+
+(E) Find sum of first n natural number
+  Pseudocode:
+    1. Start
+    2. Input n
+    3. let sum = 0, val = 1
+    4. while val < n do
+        sum = sum + val
+        val = val + 1      
+    5. print sum
+    6. Exit
+
+(F) Calculate area of Circle
+  Pseudocode:
+    1. Start
+    2. Input r
+    3. let area = 3.14 * r * r
+    4. print area
+    5. Exit
+
+(G) Print even numbers between 9 to 100.
+  Pseudocode:
+    1. Start
+    2. let n = 10
+    3. while n < 100 do
+        if n%2 == 0 do
+          print n
+        n = n + 1
+    4. Exit          

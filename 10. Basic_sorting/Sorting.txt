@@ -1,0 +1,14 @@
+Sorting:
+  - Arrangement of things in order
+
+Types of basic sorting:
+  1. Bubble sorting
+    - Large elements come to the end of array by swapping with adjacent elements.
+  2. Selection sorting
+    - pick the smallest (from unsorted), put it at the beginning.
+  3. Insertion sorting
+    - pick an element (from unsorted part) & place in the right position in sorted part
+  4. Inbuilt sorting
+    - Using an Inbuilt method to sort given array.
+  5. Counting sorting
+    - used for sorting positive numbers array in linear time complexity. It is mostly used for short range of numbers.

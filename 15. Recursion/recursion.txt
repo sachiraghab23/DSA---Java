@@ -1,0 +1,4 @@
+RECURSION:
+  - Recursion is a method of solving a computational problem where the solution depends on solutions to smaller instances of the same problem.
+  - It comprises of 3 things: Base case, action, recursion (inner call).
+  - Recursion is based on stack over flow.

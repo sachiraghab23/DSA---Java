@@ -1,0 +1,31 @@
+STRING:
+  - Strings are immutable.
+  - It represents a sequence of characters within double quotes.
+  - '.next()' method receives one word, while '.nextLine()' receives one or more than one words.
+
+String methods:
+  - length(): returns length of string
+  - charAt(i): returns the ith character present in the string.
+  - equals(str): checks whether given string is equal on value basis.
+  - substring(si,ei): returns substring within given index.
+  - toString(word): converts the given object into String.
+  - st1.compareTo(str): * returns 0 if equal;
+                    * returns -ve if st1 < str
+                    * returns +ve if st1 > str
+  - st1.compareToIgnoreCase(str): * returns 0 if equal; (ignores case)
+                    * returns -ve if st1 < str
+                    * returns +ve if st1 > str
+
+StringBuilder:
+  - StringBuilder is similar to string; but is mutable.
+
+StringBuilder methods:
+  - append(ch): adds given character or string into the stringbuilder.
+  - toString(obj): converts into string.
+
+Substing:
+  - Substrings are the collections of consecutive characters in a string.
+
+Interning:
+  - When same strings are made using reference variables, they point to the same object. (For e.g. String str = "tony";)
+  - But when same strings are made using Object variables, they point to different objects. (For e.g. String str = new String("tony");)

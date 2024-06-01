@@ -1,0 +1,20 @@
+LINKED LISTS:
+  - Linked lists are linear data structure which contains no. of nodes and each node contains one data type and one pointer containing address of next node.
+  - Last node in linked list points to null.
+
+
+Linked list methods:
+  - addFirst()
+  - addLast()
+  - add(index,num)
+  - remove()
+  - print()
+  - search()
+
+
+# Check Palindrome using linked list:
+(first approach)
+  - find mid node
+  - 2nd half reverse
+  - check if 1st half = 2nd half
+(second approach): slow-fast approach

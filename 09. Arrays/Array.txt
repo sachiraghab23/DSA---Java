@@ -1,0 +1,22 @@
+Array:
+  - Array is a list of elements of the same type placed in a contiguous memory location.
+  - Array is zero-index element.
+  - Array is static type. We can increase array size in runtime.
+
+Operations:
+  - create
+    dataType arrayName[] = new dataType[size];
+  - input/output
+  - update
+  - delete
+
+Linear search:
+  - Searching the element one by one in the array.
+  - Time complexity: O(n)
+
+Binary search:
+  - prerequisite: sorted array
+  - Time complexity: O(log n)  
+
+Subarrays:
+  - a continuous part of array  

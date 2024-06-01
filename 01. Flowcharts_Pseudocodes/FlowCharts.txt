@@ -1,0 +1,12 @@
+Flowcharts:
+  - Diagram to represent solutions of problems.
+
+Pseudocode:
+  - Step-by-step instruction of given task in english language  
+
+Components:
+ - Start/Exit: round shape [start]
+ - Input/Output: parallelogram shape [Read N, Print n]
+ - Process: rectangle shape [name = 'flash' ]
+ - Decision: rhombus shape [is mark<50]
+ - Decision flow: arrow shape

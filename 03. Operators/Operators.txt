@@ -1,0 +1,55 @@
+Operators in java:
+  - Symbols that tell computer to perform some operation.
+  - sum = a + b
+
+Types of operators:
+  a. Arithmetic operators (binary/unary)  
+  b. Relational operators
+  c. Logical operators
+  d. Bitwise operators
+  e. Assignment operators
+
+A. Arithmetic operators:
+  - Binary: 
+      a. addition: +
+      b. subtraction: -
+      c. multiplication: *
+      d. division: /
+      e. modulus: %
+  - Unary: 
+      a. increment: ++ 
+        1. Pre-increment (++n) [value change,value use]
+        2. Post-increment (n++) [value use, value change]
+      b. decrement: --
+        1. Pre-decrement (--n)
+        2. Post-decrement (n--)
+
+B. Relational operators:
+  - Equal: (==)        
+  - Not equal: (!=)
+  - Greater than: (>)
+  - Greater than or equal: (>=)
+  - Less than: (<)
+  - Less than or equal: (<=)
+
+C. Logical operators:
+  1. Logical AND: (&&)  
+    - true && true: true  
+    - true && false: false
+    - false && true: false
+    - false && false: false
+  2. Logical OR: (||)        
+    - true || true: true
+    - true || false: true
+    - false || true: true
+    - false || false: false
+  3. Logical NOT: (!)        
+    - !true: false
+    - !false: true   
+
+D. Assignment operator:
+  1. a+= b (a=a+b)
+  2. a-= b (a=a-b)
+  3. a*= b (a=a*b)
+  4. a/= b (a=a/b)
+  5. a%= b (a=a%b)

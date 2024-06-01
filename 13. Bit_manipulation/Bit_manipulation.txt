@@ -1,0 +1,48 @@
+BIT MANIPULATION:
+ - Binary number system: [0,1]
+ - Octal number system: [0,1,2,3,4,5,6,7]
+ - Decimal number system: [0,1,2,3,4,5,6,7,8,9]
+ - Hexa-decimal number system: [0,1,2,3,4,5,6,7,8,9,A,B,C,D,E,F]
+
+Bit-wise operators:
+  - Binary AND (&)
+  - Binary OR (|)
+  - Binary XOR (^)
+  - Binary One's complement (~)
+  - Binary left shift (<<)
+  - Binary right shift (>>)
+
+Binary AND:
+  0 & 0 = 0
+  1 & 0 = 0
+  0 & 1 = 0
+  1 & 1 = 1
+
+Binary OR:
+  0 | 0 = 0
+  1 | 0 = 1
+  0 | 1 = 1
+  1 | 1 = 1
+
+Binary XOR:
+  0 ^ 0 = 0
+  0 ^ 1 = 1
+  1 ^ 0 = 1
+  1 ^ 1 = 0
+
+Binary One's complement:
+  ~0 = 1
+  ~1 = 0
+
+Binary Left shift:
+  a<<b = a * Math.pow(2,b)
+
+Binary Right shift:
+  a>>b = a / Math.pow(2,b)
+
+Bit Operations:
+  - Get ith bit: To get the value of ith bit
+  - Set ith bit: To set the ith value as 1
+  - Clear ith bit: To set the ith value as 0
+  - Update ith bit: To set the ith value as 0 or 1
+  - Clear last i bits: To set last i bits 0

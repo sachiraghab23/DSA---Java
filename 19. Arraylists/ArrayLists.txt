@@ -1,0 +1,22 @@
+Introduction to ArrayLists:
+  Array:
+    - fixed size
+    - primitive data types can be stored
+  ArrayList:
+    - dynamic size
+    - primitive data types can't be stored directly
+
+Operations with time complexity:
+  Add element: O(1)
+  Get element: O(1)
+  Remove element: O(n)
+  Set element at index: O(n)
+  Contains element: O(n)
+
+Arraylist methods:
+  - add(n)
+  - set(i,n)
+  - contains(n)
+  - remove(i)
+  - get(i)
+  - size()

@@ -1,0 +1,31 @@
+*Order Complexity Analysis:
+- Amount of space or time taken up by an algorithm/code as function of input size.
+- Not the actual time taken.
+
+*Big O Notation:
+- It helps in finding the worst case complexity and upper bound for any program.
+- It is represented in O.
+
+*Big Omega Notation:
+- It helps in finding lower bound for any program.
+- It is used to find best case complexity.
+
+*Bit Theta Notation:
+- It is used to find the average of worse case and best case complexity.
+
+Rules for finding order complexity:
+1. Ignore constants.
+2. Find the largest terms.
+3. Ignore coefficients.
+For e.g. f(n) = an^2 + bn + c, here time complexity is O(n^2)
+
+*Common complexities:
+- O(1)
+- O(logn)
+- O(n)
+- O(n^2)
+- O(2^n)
+
+*Space complexity:
+- input space + auxiliary space
+- space complexity is to find the extra auxiliary space required for function. (temporary space)

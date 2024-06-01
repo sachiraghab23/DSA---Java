@@ -1,0 +1,25 @@
+Loops:
+  - Loops are the block of codes repeated till the given condition is satisfied
+  - Infinite loops are the loops in which the condition is never failed.
+
+Types of loop:
+ - while loop
+ - do while loop
+ - for loop  
+
+For Loop:
+  for(initialisation; condition; updation){
+    // codes
+  }
+
+While loop:
+  initialisation;
+  while(condition){
+    updation;
+  }
+
+break statement:
+  - 'break' keyword breaks the loop.  
+
+continue statement:
+  - 'continue' keyword skips the current iteration and moves to the next iteration.  

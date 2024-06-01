@@ -1,0 +1,40 @@
+Variable:
+  - Variables are containers which contain different kinds of data types.
+  - Java is a typed language.
+
+Comments:
+  - single line comment: we can use "//" for single line comment  
+  - multi line comment: we can use "/**/" for multi line comment  
+
+Data types in Java:
+  A. Primitive:
+    - boolean, (1 byte), [true,false]
+    - byte, (1 byte), [-128 to 127]
+    - short, (2 byte), []
+    - char, (2 byte), ['a' to 'z', 'A' to 'Z', '@', '%', ',']
+    - int, (4 bytes), [-2B to +2B]
+    - float, (4 bytes), [-2.0B to +2.0B]
+    - long, (8 bytes), [-2T to +2T]
+    - double, (8 bytes), [-2.0T to +2.0T]
+  B. Non-primitive:
+    - String
+    - Array
+    - Class
+    - Object
+    - Interface
+
+Type conversion/widening converion/implicit conversion:
+  Conversion happens when:
+    a. type compatible
+    b. destination type > source type
+    c. byte -> short -> int -> float -> long -> double    
+
+Type casting/narrow converion/explicit conversion/loosy conversion:
+  int marks = (int)(99.9f)
+
+Type promotion in expressions:
+  1. Java automatically promotes each byte, short or char operand to int when evaluting an expression.
+  2. If one operand is long, float or double the whole expression is promoted to long, float or double respectively.
+
+How is our code running?
+  - source_code(.java) -> [compiler] -> byte_code(.class) -> [java_virtual_machine] -> native_code

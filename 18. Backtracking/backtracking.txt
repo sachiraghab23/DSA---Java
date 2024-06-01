@@ -1,0 +1,4 @@
+Types of backtracking:
+  - decision (to check whether any solutions available or not)
+  - optimization (to find best solutions)
+  - enumeration (to find number of possible solutions)

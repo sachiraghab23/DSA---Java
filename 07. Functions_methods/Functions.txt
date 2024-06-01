@@ -1,0 +1,30 @@
+Functions:
+  - Block of codes performing set of tasks which is written once and can be called many times.
+  - syntax:
+    returnType name(){
+      //body
+      return statement;
+    }
+
+Methods:
+  - Functions used inside class are called methods.
+
+Parameters:
+  - Parameters are the inputs passed in function definition.
+  - Default parameters are the parameters which are called when no input is passed during function call.
+
+Arguements:
+  - Arguements are the inputs passed in function call.
+
+Call by value & by reference: 
+  - When function is called by value, then value copies are sent to the function definition and the change in function does not change the actual values.
+  - When function is called by reference, then value address/reference are sent to the function definition and the change is affected in the actual values.
+  - Java always calls by value.
+
+Function overloading:
+  - function overloading means naming different functions under same class with same name.
+  - function overloading depends upon number and data types of parameters in function definition.
+
+Scope:
+  - scope is the area in which the variable is defined and can be used.
+  - scopes are of 2 types: method scope, block scope 

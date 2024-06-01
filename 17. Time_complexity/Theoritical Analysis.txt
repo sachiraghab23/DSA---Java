@@ -1,0 +1,57 @@
+LOOPS:
+*simple loop:
+  for(int i=0; i<n; i++){
+    //some constant work
+    //is done in this loop
+  }
+TC: O(n*k) = O(n)
+
+*nested loop 1:
+  for(int i=0; i<n; i++){
+    for(int j=i+1; j<n; j++){
+      //some constant work
+    //is done in this loop
+    }
+  }
+TC: O(n*n) = O(n^2)
+
+*nested loop 2:
+  for(int i=0; i<n; i++){
+    for(int j=0; j<i; j++){
+      //some constant work
+    //is done in this loop
+    }
+  }
+TC: O(n*(n-1)/2) = O(n^2 - n) = O(n^2)
+
+*nested loop 3:
+  for(int i=0; i<n; i=i+k){
+    for(int j=i+1; j<=k; j++){
+      //some constant work
+    //is done in this loop
+    }
+  }
+TC: O((n/k) * k) = O(n)
+
+SORTING:
+*Bubble sort:
+- worse case: O(n^2)
+- best case: O(n^2)
+
+*Optimized bubble sort:
+- worse case: O(n^2)
+- best case: O(n)
+
+SEARCH:
+*Binary search:
+- worst case: O(logn)
+- best case: O(n)
+
+RECURSIVE ALGORITHMS:
+  total work done = (no. of calls * work in each call)
+  recurrence equation
+  space complexity = (max depth * memory in each cell)
+
+How to approach Questions:
+  - Apply brute force. (logical)
+  - Make it Optimized.

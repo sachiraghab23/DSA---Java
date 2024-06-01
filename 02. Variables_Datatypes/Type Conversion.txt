@@ -1,0 +1,14 @@
+Type Conversion: (widening/implicit conversion)
+
+Conversion happends when,
+a. type compatible
+b. destination type > source type
+(byte -> short -> int -> float -> long -> double)
+
+
+Type Casting: (narrowing/explicit conversion)
+int marks = (int)(99.99f);
+
+TYPE PROMOTION:
+1. Java automatically promotes each byte, short, or char operand to int when evaluating an expression.
+2. If one operand is long, float or double the whole expression is promoted to long, float or double respectively.
