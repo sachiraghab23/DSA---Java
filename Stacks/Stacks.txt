@@ -1,0 +1,7 @@
+STACKS:
+- It works in LIFO principle (Last-In-First-Out).
+
+operations:
+- push
+- pop
+- peek
