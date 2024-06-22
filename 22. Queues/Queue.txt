@@ -1,0 +1,21 @@
+QUEUE:
+- Queue is based on FIFO (First In First Out).
+
+implementation:
+- Queue is not created using array, except circular queue.
+
+operations:
+- add() //O(1)
+- remove() //O(1)
+- peek() //O(1)
+
+
+DEQUE:
+- Double Ended Queue.
+- deque operations:
+    addFirst()
+    addLast()
+    removeFirst()
+    removeLast()
+    getFirst()
+    getLast()
