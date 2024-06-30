@@ -1,0 +1,33 @@
+BINARY TREE:
+  - Binary tree is a hierarchical data structure.
+
+      1
+     / \
+    2   3
+   / \ / \
+  4  5 6  7
+ /\   / \  \
+8  9 10 11 12
+
+In the above binary tree,
+a. children of 4: 8, 9
+b. No. of leaves: (6) 8,9,5,10,11,12
+c. Parent of 6: 3
+d. Level of 7: 3
+e. subtrees of 2: (4,8,9) & (5)
+
+
+Types of Binary tree traversal:
+a. Preorder traversal
+b. Inorder traversal
+c. Postorder traversal
+d. Level-order traversal
+
+Height:
+- height of binary tree is the maximum distance between root and node of the tree.
+
+Diameter:
+- No. of nodes in the longest path between 2 leaves of a tree.
+
+Subtree of another tree:
+- Given the roots of 2 binary tree root and subroot, return true if there is a subtree of root with the same structure and nodes values of subroot and false otherwise.
