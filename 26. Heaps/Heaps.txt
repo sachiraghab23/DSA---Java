@@ -1,0 +1,20 @@
+HEAPS:
+  a. binary tree:
+  - at most 2 children
+
+  b. Complete binary tree:
+  - CBT is a BT in which all the levels are completely filled except possibly the last one, which is filled from the left to right.
+
+  c. Heap order property:
+  - Children >= Parent (minHeap)
+  - Children <= Parent (maxHeap)
+
+Priority Queues:
+- sorting whole data structure based on some Priority of one thing.
+
+Priority Queues in JCF:
+- add() O(logn)
+- remove() O(logn)
+- peek() O(1)
+
+
