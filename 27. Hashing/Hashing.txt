@@ -1,0 +1,25 @@
+HASHING:
+  - A technique to convert a data into another form using some function.
+
+Hashmap operations:
+  - put(key, value) //O(1)
+  - get(key) //O(1)
+  - containsKey(key) //O(1)
+  - remove(key) //O(1)
+
+special Note:
+- Worse case time complexity: O(n)
+
+HASHSETS:
+- no duplicates
+- unordered
+- NULL is allowed
+
+hashsets operations:
+- add(key)
+- contains(key)
+- remove(key)
+
+TREESET:
+- sorted in ascending order
+- NULL values are not allowed.
