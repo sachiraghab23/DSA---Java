@@ -1,0 +1,44 @@
+GRAPHS:
+
+Types of graphs based on edges:
+  a. Uni-directional
+  b. Un-directed
+  c. bi-directional
+
+Types of graphs based on weights:
+  a. Weighted
+  b. Unweighted
+
+Storing a graph: (structure & representation)
+  a. adjacency list
+  b. adjacency matrix
+  c. edge list
+  d. 2d matrix (implicit graph)
+
+Application of graphs:
+  a. MAPS (shorted path)
+  b. Social network
+  c. Delivery network (shortest cyclic route)
+  d. Physics & Chemistry
+  e. Machine learning (computation graphs)
+  f. Dependency graph
+  g. Computer vision
+  h. Routing algorithms
+  i. Graph databases
+  j. Research
+
+Graph Traversals:
+  a. Breadth first search (bfs)
+    - Go to immediate neighbors first.
+  b. Depth first search (dfs)
+    - Keep going to the 1st neighbor
+
+Cycle in Graphs:
+  a. Undirected:
+    - dfs
+    - bfs
+    - DSU (Disjoint set union)    
+  b. Directed:
+    - dfs
+    - bfs
+    - topological cost (kahn's algorithm)
